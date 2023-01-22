@@ -9,7 +9,8 @@ namespace encontro_remoto_2.Class
     {
         public string? nome {get; set;}
         public float rendimento {get; set;}
-        public string? endereco {get; set;}
+        public Endereco? endereco {get; set;}
+        public Conta? conta {get; set;}
         public abstract float CalcularImposto(float rendimento);
     }
 }
