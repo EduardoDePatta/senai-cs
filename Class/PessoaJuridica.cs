@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +27,7 @@ namespace encontro_remoto_2.Class
             }  
         }
 
-        public bool ValidarCnpj(string cpnj)
+        bool IPessoaJuridica.CalcularImposto(float rendimento)
         {
             throw new NotImplementedException();
         }
